@@ -1,0 +1,10 @@
+<div class="flex-container">
+    <div class="flex-input-container">
+        <input class="inputbox" type="text" [(ngModel)]="userInputs" (ngModelChange)="addNewLetter($event);" placeholder="......">
+    </div>
+    <div class="flex-display-container">
+        <ul class="flex-list">
+            <li class="list" *ngFor="let letter of displayLetter">{{ letter }}</li>
+        </ul>
+    </div>
+</div>

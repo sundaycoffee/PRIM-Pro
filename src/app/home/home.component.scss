@@ -1,0 +1,56 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: #F5F5F5;
+}
+
+.flex-input-container {
+    border-radius: 15px;
+    display: flex;
+    min-width: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.flex-display-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    min-width: 300px;
+    overflow: scroll;
+    overflow: auto;
+    background-color: white;
+}
+
+.inputbox {
+    width: 150px;
+    height: 30px;
+    border: 2px solid #BEBEBE;
+    border-radius: 15px;
+}
+
+.flex-list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    margin-bottom: 5px;
+    width: 100px;
+    line-height: 15px;
+}
+
+input:focus,
+textarea {
+    outline: none !important;
+}
